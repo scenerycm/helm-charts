@@ -18,7 +18,7 @@ envFrom: []
 # A list of secrets and their paths to mount inside the pod
 secretMounts: []
 
-image: "logstash"
+image: "scenerycm/logstash"
 imageTag: "7.3.0"
 imagePullPolicy: "IfNotPresent"
 imagePullSecrets: []
